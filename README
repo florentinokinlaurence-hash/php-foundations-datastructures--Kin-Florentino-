@@ -1,13 +1,111 @@
 
-## ▶ How to Run
-1. Place files in your localhost server (XAMPP/htdocs).
-2. Open browser and run:
-   - `localhost/recursion.php`
-   - `localhost/hashtable.php`
-   - `localhost/bst.php`
+Project Purpose
 
+This project aims to:
 
-- Recursively printed book folders.
-- Book details (author, year, genre).
-- Alphabetically sorted book titles using BST and search results.
+Use Recursion to display nested book categories and subcategories.
 
+Use Hash Tables (associative arrays) to store and retrieve book information such as author, year, and genre.
+
+Implement a Binary Search Tree (BST) to insert, search, and display book titles in alphabetical order.
+
+These concepts help improve understanding of PHP data structures and logical problem-solving.
+
+How to Run Each Part
+
+Part I — Recursion (recursion.php)
+
+Displays book categories in a hierarchical structure.
+
+How to run:
+
+Save recursion.php in your server folder (htdocs for XAMPP, www for WAMP, etc.)
+
+Open your browser and go to:
+http://localhost/recursion.php
+
+Expected Output:
+Fiction
+Fantasy
+Harry Potter
+The Hobbit
+Mystery
+Sherlock Holmes
+Gone Girl
+Non-Fiction
+Science
+A Brief History of Time
+The Selfish Gene
+Biography
+Steve Jobs
+Becoming
+
+Part II — Hash Table (hashtable.php)
+
+Displays book details using associative arrays.
+
+How to run:
+
+Save hashtable.php in your server folder.
+
+Visit in your browser:
+http://localhost/hashtable.php
+
+Expected Output:
+Title: Harry Potter
+Author: J.K. Rowling
+Year: 1997
+Genre: Fantasy
+
+Book not found.
+
+Part III — Binary Search Tree (bst.php)
+
+Inserts book titles, searches for specific titles, and displays them alphabetically.
+
+How to run:
+
+Save bst.php in your server folder.
+
+Go to:
+http://localhost/bst.php
+
+Expected Output:
+Inorder Traversal (Alphabetical):
+A Brief History of Time
+Becoming
+Gone Girl
+Harry Potter
+Sherlock Holmes
+The Hobbit
+
+Searching for "The Hobbit": Found
+Searching for "Inferno": Not Found
+
+Example Screenshots or Outputs
+
+You may place example screenshots in a folder named "screenshots". Example:
+
+screenshots/
+recursion_output.png
+hashtable_output.png
+bst_output.png
+
+Or you can copy the sample outputs shown above.
+
+Suggested Folder Structure
+
+php-foundations-datastructures-[YourName]/
+recursion.php
+hashtable.php
+bst.php
+README.md
+screenshots (optional)
+
+Requirements
+
+PHP version 7 or higher
+
+Local server environment (XAMPP, WAMP, Laragon, etc.)
+
+Web browser to view outputs
