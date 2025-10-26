@@ -1,0 +1,13 @@
+
+## ▶ How to Run
+1. Place files in your localhost server (XAMPP/htdocs).
+2. Open browser and run:
+   - `localhost/recursion.php`
+   - `localhost/hashtable.php`
+   - `localhost/bst.php`
+
+
+- Recursively printed book folders.
+- Book details (author, year, genre).
+- Alphabetically sorted book titles using BST and search results.
+
